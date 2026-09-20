@@ -8,8 +8,8 @@ not read the current rules of a single one of these subreddits.
 
 What follows is therefore split into two clearly labelled parts:
 
-- **Measured** — numbers from third-party subreddit-stats services.
-- **Prior knowledge, UNVERIFIED** — what I understand these communities'
+- **Measured**: numbers from third-party subreddit-stats services.
+- **Prior knowledge, UNVERIFIED**: what I understand these communities'
   rules and conventions to be. This is from training data, it may be out of
   date, and subreddit rules change without notice.
 
@@ -22,7 +22,7 @@ plan that reads as confident and gets `u/nullsect1r` shadowbanned.
 
 ## The subreddits
 
-### r/feedthebeastservers — best fit, lowest risk
+### r/feedthebeastservers: best fit, lowest risk
 
 - **Measured:** ~15,000 members, +12.6% over the past year.
 - **Measured:** its own description is *"a place to advertise and seek
@@ -40,7 +40,7 @@ which is the highest-intent traffic available anywhere on Reddit.
 **Start here.** It is the safest possible place to test whether the pitch
 works before risking a larger subreddit.
 
-### r/allthemods — highest relevance, needs care
+### r/allthemods: highest relevance, needs care
 
 - **Measured:** 123,214 members, created 2014.
 - **Note:** `u/nullsect1r` has already posted here. Before writing anything
@@ -62,7 +62,7 @@ far more of this audience than a recruitment post would, and carries much
 less rule risk. The server gets mentioned in the comments when someone asks,
 which they do.
 
-### r/feedthebeast — largest, strictest
+### r/feedthebeast: largest, strictest
 
 - **Measured:** 647,835 members.
 
@@ -79,7 +79,7 @@ members this is the largest pool of the right people anywhere on Reddit, and
 the correct way to use it is to be a useful community member whose flair or
 comment history mentions a server, not to advertise.
 
-### r/mcservers, r/minecraftserverlist — server-ad subreddits, mostly vanilla
+### r/mcservers, r/minecraftserverlist: server-ad subreddits, mostly vanilla
 
 **UNVERIFIED expectation:** these exist specifically for server advertising
 and typically enforce a rigid title format with bracketed tags
@@ -94,7 +94,7 @@ in the calendar. If the first post from each produces nothing, drop them.
 This mirrors the server-list finding: vanilla-dominated venues do not convert
 for modded servers.
 
-### r/MinecraftBuddies — different shape, possibly useful
+### r/MinecraftBuddies: different shape, possibly useful
 
 **UNVERIFIED expectation:** this subreddit is for finding people to play
 *with* rather than advertising servers *at* people, and it usually has a

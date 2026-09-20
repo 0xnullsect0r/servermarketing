@@ -93,7 +93,7 @@ Exactly 50 words:
 
 > Homies' International is a small All the Mods 10 server on a dedicated box in
 > a Pennsylvania datacenter. Players in the US and New Zealand, so someone is
-> usually on. Twice-daily scheduled restarts with warnings, real backups, no
+> usually on. Twice-daily restarts with warnings, real backups, no
 > store, no ranks for sale. Run by a software engineer who fixes things.
 
 If **[VERIFY-1]** fails, swap sentence two for: *"Restarts are scheduled and
@@ -103,7 +103,7 @@ announced, backups are real, and the world is not wiped."*
 
 ## Two-hundred-word pitch
 
-199 words:
+193 words:
 
 > Homies' International is an All the Mods 10 server for adults who want their
 > base to still be there in six months.

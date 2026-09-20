@@ -53,7 +53,7 @@ Finding 4). A listing that renders "offline" is worse than no listing.
 
 **Tier 1, do this week (about 30 minutes total):**
 
-1. **moddedminecraftservers.com** — free listing, and the only directory where
+1. **moddedminecraftservers.com**: free listing, and the only directory where
    the ATM10 category is genuinely populated. Being listed alongside 43 peers,
    two-thirds of which are dead, is a context where a live, well-described
    server stands out. This is the one list that is clearly worth the effort.
@@ -61,19 +61,19 @@ Finding 4). A listing that renders "offline" is worse than no listing.
 
 **Tier 2, do once, then ignore (about 20 minutes):**
 
-2. **topg.org** — the only general list with any ATM10 presence at all (4
+2. **topg.org**: the only general list with any ATM10 presence at all (4
    mentions, and it supports an `atm10` tag). Free submission. Do not chase
    votes. Submit it, tag it, forget it.
 
 **Tier 3, explicitly not doing, and why:**
 
 - **minecraftservers.org, minecraft.buzz, mcserverlist.net, mc-servers.com,
-  minelist.io** — zero ATM presence, vote-ranked, Cobblemon-dominated. The
+  minelist.io**: zero ATM presence, vote-ranked, Cobblemon-dominated. The
   expected return is approximately zero players, and the cost is an hour of
   form-filling plus an ongoing nag to vote. Skip all five.
 - **Any paid or "featured" tier anywhere.** Out of scope by constraint, and
   the money would be wasted on the above analysis regardless.
-- **planetminecraft.com** — I could not read it (Cloudflare blocked my
+- **planetminecraft.com**: I could not read it (Cloudflare blocked my
   requests), so I am not ranking it confidently. My prior is that it is
   vanilla-and-builds dominated and belongs in tier 3, but this is a guess and
   I have marked it as such in `QUESTIONS.md` Q6. It costs 10 minutes to check

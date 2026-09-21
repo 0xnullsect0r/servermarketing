@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"
-     role="img" aria-label="A floating island with a lit tower">
+     role="img" aria-label="Isometric floating island with a central tower">
   <title>Homies' International</title>
 
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#0B1229"/>
-      <stop offset="0.62" stop-color="#1B2A55"/>
-      <stop offset="1"   stop-color="#2A3F74"/>
-    </linearGradient>
-    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0"    stop-color="#E4EAF6"/>
-      <stop offset="0.55" stop-color="#C3CDE2"/>
-      <stop offset="1"    stop-color="#96A2BD"/>
-    </linearGradient>
-    <linearGradient id="rock" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#53456E"/>
-      <stop offset="1" stop-color="#2B2440"/>
-    </linearGradient>
-    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#63CE4F"/>
-      <stop offset="1" stop-color="#3C8B33"/>
-    </linearGradient>
-  </defs>
+  <rect width="512" height="512" fill="#121A2E"/>
 
-  <!-- sky -->
-  <rect width="512" height="512" fill="url(#sky)"/>
-
-  <!-- stars: decorative, vanish gracefully at 64px -->
-  <g fill="#FFFFFF" opacity="0.85">
-    <circle cx="94"  cy="96"  r="7"/>
-    <circle cx="418" cy="138" r="6"/>
-    <circle cx="372" cy="62"  r="5"/>
-    <circle cx="132" cy="196" r="5"/>
+  <g fill="#FFFFFF" opacity="0.62">
+    <rect x="70"  y="96"  width="14" height="14"/>
+    <rect x="424" y="140" width="12" height="12"/>
+    <rect x="386" y="64"  width="10" height="10"/>
   </g>
 
-  <!-- tower roof -->
-  <polygon points="256,72 322,132 190,132" fill="#B04A3A"/>
-  <!-- parapet -->
-  <rect x="188" y="132" width="136" height="30" rx="4" fill="url(#stone)"/>
-  <!-- beacon -->
-  <rect x="232" y="138" width="48" height="18" rx="4" fill="#FFC03A"/>
-  <!-- shaft -->
-  <rect x="214" y="162" width="84" height="172" fill="url(#stone)"/>
-  <!-- windows -->
-  <rect x="240" y="196" width="32" height="26" rx="3" fill="#FFC03A"/>
-  <rect x="240" y="256" width="32" height="26" rx="3" fill="#FFC03A"/>
+  <!-- ISLAND (drawn first so the tower sits on it) -->
+  <polygon points="256,265 406,340 256,415 106,340" fill="#7DC74E"/>
+  <polygon points="106,340 256,415 256,443 106,368" fill="#9A6A43"/>
+  <polygon points="406,340 256,415 256,443 406,368" fill="#7A5233"/>
+  <polygon points="106,368 256,443 256,478"         fill="#7C7A88"/>
+  <polygon points="406,368 256,443 256,478"         fill="#5A5866"/>
 
-  <!-- island: grass cap -->
-  <polygon points="96,314 416,314 404,352 108,352" fill="url(#grass)"/>
-  <!-- island: rock underside -->
-  <polygon points="108,352 404,352 374,392 336,420 298,442 268,458 246,450 206,424 158,390"
-           fill="url(#rock)"/>
+  <!-- drifting block -->
+  <polygon points="140,415 164,427 140,439 116,427" fill="#7DC74E"/>
+  <polygon points="116,427 140,439 140,453 116,441" fill="#9A6A43"/>
+  <polygon points="164,427 140,439 140,453 164,441" fill="#7A5233"/>
 
-  <!-- small drifting rock, for depth -->
-  <polygon points="366,404 386,418 368,434 352,418" fill="#3B3154"/>
+  <!-- TOWER -->
+  <polygon points="208,166 256,190 256,360 208,336" fill="#D4DBEA"/>
+  <polygon points="304,166 256,190 256,360 304,336" fill="#97A0B7"/>
+  <polygon points="256,142 304,166 256,190 208,166" fill="#EEF2FA"/>
+
+  <polygon points="220,172 244,184 244,214 220,202" fill="#FFC63D"/>
+  <polygon points="220,232 244,244 244,274 220,262" fill="#FFC63D"/>
+  <polygon points="292,172 268,184 268,214 292,202" fill="#E0A426"/>
+  <polygon points="292,232 268,244 268,274 292,262" fill="#E0A426"/>
+
+  <!-- ROOF, overhanging the shaft -->
+  <polygon points="256,80 194,172 256,202" fill="#D05B44"/>
+  <polygon points="256,80 318,172 256,202" fill="#9E3F2F"/>
 </svg>
